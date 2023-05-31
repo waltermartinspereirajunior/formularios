@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#form-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    background-color: rgb(33, 82, 173);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: rgb(7, 7, 7);
+    width: 20%;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 50px;
+    cursor:pointer;
+
+}
+
+label {
+    font-size: small;
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 85%;
+}
+
+textarea {
+    width: 320px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: black;
+    min-height: 13rem;
+    resize: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover {
+    box-decoration-break: slice;
+    color: rgb(236, 14, 14);
+    background-color: gold;
+    font-weight: bolder;
+}
